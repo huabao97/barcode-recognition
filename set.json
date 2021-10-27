@@ -1,0 +1,230 @@
+{
+  "ImageParameter": {
+    "BarcodeColourModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "LightReflection": 1,
+        "Mode": "BICM_DARK_ON_LIGHT"
+      }
+    ],
+    "BarcodeComplementModes": [
+      {
+        "Mode": "BCM_SKIP"
+      },
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "BCM_GENERAL"
+      }
+    ],
+    "BarcodeFormatIds": [
+      "BF_ALL"
+    ],
+    "BarcodeFormatIds_2": [
+      "BF2_POSTALCODE",
+      "BF2_DOTCODE"
+    ],
+    "BinarizationModes": [
+      {
+        "BlockSizeX": 0,
+        "BlockSizeY": 0,
+        "EnableFillBinaryVacancy": 1,
+        "ImagePreprocessingModesIndex": -1,
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "BM_LOCAL_BLOCK",
+        "ThreshValueCoefficient": 10
+      },
+      {
+        "BlockSizeX": 0,
+        "BlockSizeY": 0,
+        "EnableFillBinaryVacancy": 0,
+        "ImagePreprocessingModesIndex": -1,
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "BM_LOCAL_BLOCK",
+        "ThreshValueCoefficient": 15
+      }
+    ],
+    "ColourClusteringModes": [
+      {
+        "Mode": "CCM_SKIP"
+      }
+    ],
+    "ColourConversionModes": [
+      {
+        "BlueChannelWeight": -1,
+        "GreenChannelWeight": -1,
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "CICM_GENERAL",
+        "RedChannelWeight": -1
+      }
+    ],
+    "DPMCodeReadingModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "DPMCRM_GENERAL"
+      }
+    ],
+    "DeblurLevel": 9,
+    "DeblurModes": null,
+    "DeformationResistingModes": [
+      {
+        "Mode": "DRM_SKIP"
+      },
+      {
+        "Level": 5,
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "DRM_GENERAL"
+      }
+    ],
+    "Description": "",
+    "ExpectedBarcodesCount": 999,
+    "FormatSpecificationNameArray": null,
+    "GrayscaleTransformationModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "GTM_ORIGINAL"
+      },
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "GTM_INVERTED"
+      }
+    ],
+    "ImagePreprocessingModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "IPM_GENERAL"
+      }
+    ],
+    "IntermediateResultSavingMode": {
+      "Mode": "IRSM_MEMORY"
+    },
+    "IntermediateResultTypes": [
+      "IRT_NO_RESULT"
+    ],
+    "LocalizationModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "LM_CONNECTED_BLOCKS"
+      },
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "LM_SCAN_DIRECTLY",
+        "ScanDirection": 0,
+        "ScanStride": 0
+      },
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "LM_STATISTICS"
+      },
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "LM_LINES"
+      },
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "LM_STATISTICS_MARKS"
+      },
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "LM_STATISTICS_POSTAL_CODE"
+      }
+    ],
+    "MaxAlgorithmThreadCount": 4,
+    "Name": "default",
+    "PDFRasterDPI": 300,
+    "PDFReadingMode": {
+      "Mode": "PDFRM_AUTO"
+    },
+    "Pages": "",
+    "RegionDefinitionNameArray": [
+      "default"
+    ],
+    "RegionPredetectionModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "RPM_GENERAL"
+      }
+    ],
+    "ResultCoordinateType": "RCT_PERCENTAGE",
+    "ReturnBarcodeZoneClarity": 0,
+    "ScaleDownThreshold": 99999,
+    "ScaleUpModes": [
+      {
+        "Mode": "SUM_AUTO"
+      }
+    ],
+    "TerminatePhase": "TP_BARCODE_RECOGNIZED",
+    "TextAssistedCorrectionMode": {
+      "BottomTextPercentageSize": 0,
+      "LeftTextPercentageSize": 0,
+      "LibraryFileName": "",
+      "LibraryParameters": "",
+      "Mode": "TACM_VERIFYING",
+      "RightTextPercentageSize": 0,
+      "TopTextPercentageSize": 0
+    },
+    "TextFilterModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "MinImageDimension": 65536,
+        "Mode": "TFM_GENERAL_CONTOUR",
+        "Sensitivity": 0
+      }
+    ],
+    "TextResultOrderModes": [
+      {
+        "Mode": "TROM_CONFIDENCE"
+      },
+      {
+        "Mode": "TROM_POSITION"
+      },
+      {
+        "Mode": "TROM_FORMAT"
+      }
+    ],
+    "TextureDetectionModes": [
+      {
+        "LibraryFileName": "",
+        "LibraryParameters": "",
+        "Mode": "TDM_GENERAL_WIDTH_CONCENTRATION",
+        "Sensitivity": 5
+      }
+    ],
+    "Timeout": 99999
+  },
+  "RegionDefinition": {
+    "BarcodeFormatIds": [
+      "BF_ALL"
+    ],
+    "BarcodeFormatIds_2": [
+      "BF2_POSTALCODE",
+      "BF2_DOTCODE"
+    ],
+    "Bottom": 100,
+    "ExpectedBarcodesCount": 999,
+    "FormatSpecificationNameArray": null,
+    "Left": 0,
+    "MeasuredByPercentage": 1,
+    "Name": "default",
+    "Right": 100,
+    "Top": 0
+  },
+  "Version": "3.0"
+}
